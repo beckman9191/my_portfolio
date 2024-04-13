@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo"> Zhengnan (Timmy) Zhu</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Profile</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Zhengnan (Timmy) Zhu</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleHamburgerMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="index.html" onclick="toggleHamburgerMenu()">Profile</a></li>
+                    <li><a href="about.html" onclick="toggleHamburgerMenu()">About</a></li>
+                    <li><a href="experience.html" onclick="toggleHamburgerMenu()">Experience</a></li>
+                    <li><a href="projects.html" onclick="toggleHamburgerMenu()">Projects</a></li>
+                    <li><a href="contact.html" onclick="toggleHamburgerMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <section id="projects">
+            <p class="section_text_p1">Browse My recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="projects-details-container">
+                <div class="project-containers">
+                    <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                          src="./assets/face2age.png" 
+                          alt="project 1" 
+                          class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Face2Age</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="window.open('https://github.com/beckman9191/face2age', '_blank');">
+                            Github
+                        </button>
+                    </div>
+                    </div>
+
+                    <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                          src="./assets/chess_game.jpeg" 
+                          alt="project 2" 
+                          class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Chess Game</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="window.open('https://github.com/beckman9191/RAIInet/tree/master/A5_Project', '_blank');">
+                            Github
+                        </button>
+                    </div>
+                    </div>
+
+                    <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                          src="./assets/ml.png" 
+                          alt="project 3" 
+                          class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Data Analytics and Machine Learning Projects</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="window.open('https://github.com/beckman9191/APS1070-Foundations-of-Data-Analytics-and-Machine-Learning', '_blank');">
+                            Github
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

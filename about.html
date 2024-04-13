@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo"> Zhengnan (Timmy) Zhu</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Profile</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Zhengnan (Timmy) Zhu</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleHamburgerMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="index.html" onclick="toggleHamburgerMenu()">Profile</a></li>
+                    <li><a href="about.html" onclick="toggleHamburgerMenu()">About</a></li>
+                    <li><a href="experience.html" onclick="toggleHamburgerMenu()">Experience</a></li>
+                    <li><a href="projects.html" onclick="toggleHamburgerMenu()">Projects</a></li>
+                    <li><a href="contact.html" onclick="toggleHamburgerMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <section id="about">
+            <p class="section_text_p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img 
+                        src="./assets/timmy2.png" 
+                        alt="Profile picture"
+                        class="about-pic"
+                    />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+
+
+                            <img src="./assets/experience.png"
+                                 alt="Experience incon"
+                                 class="icon"
+                            />
+                            
+                            <h3>Hobbits</h3>
+
+                            <article>
+                                <img 
+                                  src="./assets/checkmark.png"
+                                  alt="Experience Icon"
+                                  class="icon" 
+                                />
+                                <div>
+                                    <h3>Counter-Strike</h3>
+                                    <a href="https://www.faceit.com/en/players/tmz72953" target="_blank" rel="noopener noreferrer">faceit</a>
+                                </div>
+                                <img 
+                                  src="./assets/checkmark.png"
+                                  alt="Experience Icon"
+                                  class="icon" 
+                                />
+                                <div>
+                                    <h3>Workout</h3>
+                                   
+                                </div>
+                                <img 
+                                  src="./assets/checkmark.png"
+                                  alt="Experience Icon"
+                                  class="icon" 
+                                />
+                                <div>
+                                    <h3>Basketball</h3>
+                                    
+                                </div>
+                                <img 
+                                  src="./assets/checkmark.png"
+                                  alt="Experience Icon"
+                                  class="icon" 
+                                />
+                                <div>
+                                    <h3>Photograph</h3>
+                                    
+                                </div>
+                                <img 
+                                  src="./assets/checkmark.png"
+                                  alt="Experience Icon"
+                                  class="icon" 
+                                />
+                                <div>
+                                    <h3>Singing</h3>
+                                    
+                                </div>
+                                <img 
+                                  src="./assets/checkmark.png"
+                                  alt="Experience Icon"
+                                  class="icon" 
+                                />
+                                <div>
+                                    <h3>Acting</h3>
+                                    
+                                </div>
+                            </article>
+                            
+                                
+                           
+                            
+                        </div> 
+                        <div class="details-container">
+                            <img src="./assets/education.png"
+                                 alt="Education incon"
+                                 class="icon"
+                            />
+
+                            <style>
+                                img.icon-inline {
+                                    vertical-align: middle;
+                                    width: 50px; /* Adjust based on your design */
+                                    height: auto;
+                                    margin-right: 4px;
+                                }
+                            </style>
+
+                            <h3>Education</h3>
+                            <p>Bachelor of Computer Science and Financial Management </p>
+                                
+                            <br />
+                            <img src="./assets/uw_icon.png" 
+                            alt="Email Icon" 
+                            class="icon-inline">
+                            <h3>University of Waterloo </h3>
+                            
+                            <br /> 
+                            <p>Master of Engineer in Electrical and Computer Engineering </p>
+                            <br /> 
+                            <img src="./assets/ut_icon.png" 
+                            alt="Email Icon" 
+                            class="icon-inline">
+                            <h3>University of Toronto </h3>
+                            <br /> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p> <br>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

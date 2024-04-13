@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo"> Zhengnan (Timmy) Zhu</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Profile</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Zhengnan (Timmy) Zhu</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleHamburgerMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="index.html" onclick="toggleHamburgerMenu()">Profile</a></li>
+                    <li><a href="about.html" onclick="toggleHamburgerMenu()">About</a></li>
+                    <li><a href="experience.html" onclick="toggleHamburgerMenu()">Experience</a></li>
+                    <li><a href="projects.html" onclick="toggleHamburgerMenu()">Projects</a></li>
+                    <li><a href="contact.html" onclick="toggleHamburgerMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div calss="experience-details-container">
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <div class="timeline-point" id="point1">
+                            <div class="content">
+                                <h3>Xiaomi Technology</h3>
+                                <span class="duration">Jan 2022 - Aug 2022</span>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="timeline-point" id="point2">
+                            <div class="content">
+                                <h3>Electro Source</h3>
+                                <span class="duration">Sep 2020 - Dec 2020</span>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="timeline-point" id="point3">
+                            <div class="content">
+                                <h3>ATS Automation Tooling Systems</h3>
+                                <span class="duration">Jan 2020 - Apr 2020</span>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="timeline-point" id="point4">
+                            <div class="content">
+                                <h3>DigitalEd</h3>
+                                <span class="duration">May 2019 - Aug 2019</span>
+                                <p>Quality Assurance Analyst</p>
+                            </div>
+                        </div>
+
+                        
+                        <!-- Add more timeline points as needed -->
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
