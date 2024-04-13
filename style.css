@@ -339,7 +339,7 @@ section {
     
     padding: 1rem;
     flex: 1;
-    
+    width: 70%; /* to be changed later */
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.2rem solid;
@@ -362,6 +362,11 @@ section {
 
 #experience {
     position: relative;
+}
+
+.bullet {
+    color: #007bff; /* Change color as needed */
+    margin-right: 5px; /* Adjust spacing */
 }
 
 .timeline-container {
@@ -432,6 +437,12 @@ section {
 }
 
 .duration {
+    font-weight: bold;
+    color: #a2a2a2;
+}
+
+.experience-title {
+    font-size: medium;
     font-weight: bold;
     color: #a2a2a2;
 }
