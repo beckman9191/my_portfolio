@@ -128,17 +128,15 @@ a:hover {
 .menu-links {
     position: absolute;
     top: 100%;
+    
     right: 0;
     background-color: white;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
-    display: flex; /* Using flexbox for horizontal layout */
-    flex-direction: row; /* Align children in a row */
-    justify-content: center; /* Center items horizontally, adjust as needed */
-    align-items: center; /* Center items vertically */
-    white-space: nowrap; /* Prevents wrapping of menu items */
+    z-index: 1; /* Set a higher z-index value */
+    
 }
 
 .menu-links a {
